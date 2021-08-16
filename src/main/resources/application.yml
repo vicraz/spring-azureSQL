@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://victordbserver.database.windows.net:1433;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    url: jdbc:sqlserver://victorazuredb.database.windows.net:1433;database=victorazuredb;user=victor@victorazuredb;password=Password123!;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     username: victor
     password: Password123!
   jpa:
